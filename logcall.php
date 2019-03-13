@@ -3,7 +3,6 @@
 <head>
 <title>Log Call</title>
 <?php include "36_shumei.php"; 
-
 	if(isset($_POST['btnProcessCall']))
 	{
 		$con = mysql_connect("localhost", "shumei", "shumei");
